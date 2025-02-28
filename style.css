@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #dee2e6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+.heading h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn button:hover {
+    transform: scale(1.1);
+}
+
+.btn button img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #333;
+    padding: 5px;
+}
+
+#result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #555;
+}
+#reset {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease-in-out;
+    margin-top: 15px;
+}
+
+#reset:hover {
+    background-color: #0056b3; 
+    transform: scale(1.05);
+}
+
+#reset:active {
+    background-color: #00408a;
+    transform: scale(0.95); 
+}
+.User{
+    color: blue;
+}
+.Computer{
+    color:red
+}
